@@ -30,7 +30,7 @@ if(isset($data['uname']))
 	$smtpemailto = "xxx@xxx";//发送给谁
 	$smtpuser = "xxx";//SMTP服务器的用户帐号
 	$smtppass = "xxx";//SMTP服务器的用户密码
-	$mailsubject = "【丘比特官网客户报名通知-PC端】";//邮件主题
+	$mailsubject = "【xxx】";//邮件主题
 
     $addon=empty($data['addon_data'])?'':" 附加信息:".$data['addon_data'];
 	$mailbody = "【请及时联系】：客户姓名：{$data['uname']},$contact".$addon;//邮件内容
